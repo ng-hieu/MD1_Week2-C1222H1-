@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1: Tính TBC 3 môn</title>
+</head>
+<body>
+  <script>
+    //Bai 1: Viết chương trình nhập điểm của một sinh viên cho các môn: Vật lý, Hóa học, và Sinh học. Sau đó hiển thị điểm trung bình và tổng của những điểm này
+    inputPhysics = prompt('Nhập điểm vật lý: ');
+    inputChemistry = prompt('Nhập điểm hóa học: ');
+    inputBiology = prompt('Nhập điểm sinh học: ');
+    let Physics = parseFloat(inputPhysics);
+    let Chemistry = parseFloat(inputChemistry);
+    let Biology = parseFloat(inputBiology);
+    let Average = (Physics + Chemistry + Biology)/3;
+    document.write('Điểm trung bình cộng cả 3 môn = '+ Average);
+  </script>
+</body>
+</html>
